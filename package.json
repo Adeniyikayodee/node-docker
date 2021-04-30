@@ -1,0 +1,27 @@
+{
+  "name": "node-docker",
+  "version": "1.0.0",
+  "description": "I am learning Docker; DevOps with Docker and Node.js/Express, mongoDB + redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -L index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adeniyikayodee/node-docker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adeniyikayodee/node-docker/issues"
+  },
+  "homepage": "https://github.com/Adeniyikayodee/node-docker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
