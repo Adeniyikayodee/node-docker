@@ -8,9 +8,9 @@ const postSchema = new mongoose.Schema({
     },
     body: {
         type: String,
-        require: [true, "Post must have a body"],
+        required: [true, "Post must have a body"],
     },
 });
 
-const Posts = mongoose.model("Post", postSchema);
-module.exports = Posts;
+const Post = mongoose.model("Post", postSchema);
+module.exports = Post;
